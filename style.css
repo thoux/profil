@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Slab:wght@500&display=swap');
+body {
+  background-color: #F8F9FD;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, p {
+  color: #060833;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+
+h3 {
+  color: #3148C5;
+}
+
+h1,h2,h3{
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 500;
+}
+
+#intro {
+  margin-bottom: 30px;
+  color: #333A64;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+.img-small {
+  width: 150px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.btn-blue {
+  background: #CED1F2;
+  color: #3148C5;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.btn-blue:hover {
+  background: #3148C5;
+  color: #CED1F2;
+  transition-duration: 0.5s;
+}
+
+.card {
+  background: white;                         /* White background */
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin: 20px 0px;
+  border: 1px solid #ced1f29c;
+}
+
+.list-inline, i {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 25px;
+  color: #6C718F;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
